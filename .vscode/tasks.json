@@ -1,0 +1,57 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: Build Engine",
+            "command": "C:/Mingw_Kit/w64devkit/bin/g++.exe",
+            "args": [
+                // 1. Отладочные флаги
+                "-g",
+                "-std=c++17",
+                "-mconsole",
+
+                // 2. Пути к заголовкам (-I)
+                "-I${workspaceFolder}/include",
+                "-I${workspaceFolder}/include/glad",
+                "-I${workspaceFolder}/buffers", // <-- ПУТЬ К НОВЫМ .H ФАЙЛАМ
+                "-I${workspaceFolder}/C:\\libs\\glm",
+                // 3. Пути к библиотекам (-L)
+                "-L${workspaceFolder}/lib",
+
+                // 4. Исходники (ВСЕ .cpp и .c файлы)
+                "${workspaceFolder}/src/main.cpp",
+                "${workspaceFolder}/src/glad.c",
+                "${workspaceFolder}/src/shaderClass.cpp", // <--- ДОБАВЛЕНО!
+                "${workspaceFolder}/buffers/EBO.cpp",
+                "${workspaceFolder}/buffers/VAO.cpp",
+                "${workspaceFolder}/buffers/VBO.cpp",
+                "${workspaceFolder}/src/stb_image.cpp",
+
+                // 5. Линковка (Системные библиотеки)
+                "-lglfw3",
+                "-lopengl32",
+                "-lgdi32",
+                "-luser32",
+                "-lshell32",
+                "-lws2_32",
+                "-lversion",
+
+                // 6. Выходной файл
+                "-o",
+                "${workspaceFolder}/cutable.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build engine with W64DevKit GCC"
+        }
+    ]
+}
