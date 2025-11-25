@@ -5,14 +5,14 @@
             "name": "C/C++ Debug (MinGW)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/cutable.exe", // <-- Программа для запуска
+            "program": "${workspaceFolder}/cutable.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:/MinGW/bin/gdb.exe", // <--- ПУТЬ К GDB.EXE
+            "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
